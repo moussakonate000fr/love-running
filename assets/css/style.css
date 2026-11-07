@@ -26,6 +26,10 @@ h1, h2, h3 {
     color: #252525;
 }
 
+.hidden-heading {
+    display: none;
+}
+
 /* Header */
 header {
     background-color: #ffffff;
@@ -123,6 +127,8 @@ main {
     /* This will not wrap on screens of less than 400px wide. Each div will the available space on its row*/
     flex-basis: 200px;
     flex-grow: 1;
+    /* Creates a grid of meetup time dives over the background image */
+    border: 2px solid white;
 }
 
 #times h3 {
